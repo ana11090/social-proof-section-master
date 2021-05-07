@@ -1,0 +1,171 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  
+  body{
+    font-family: 'Spartan', sans-serif;
+    background-image: url("images/bg-pattern-top-desktop.png"),url("images/bg-pattern-bottom-desktop.png");
+    background-position: left top, right bottom;
+    background-repeat: no-repeat, no-repeat;
+
+  }
+
+
+.margin{
+    width: 280px;
+}
+
+
+
+
+
+.first-set{
+    display: flex;
+    
+}
+
+.intro{
+    max-width: 439px;
+    max-height: 235px;
+    min-width: 180px;
+    flex-wrap: wrap;
+    margin-top: 102px;
+    justify-content: left;
+    
+}
+
+h1{
+    font-weight: 700;
+    font-size: 40px;
+    color:hsl(300, 43%, 22%);
+    margin: 0;
+}
+
+
+.text{
+    font-weight: 500;
+    font-size: 15px;
+    color:hsl(303, 10%, 53%);
+    margin: 10px 0 0 0;
+}
+
+.pink-box{
+    display: inline-flex;
+    width: 445px;
+    height: 50px;
+    border-radius: 8px;
+    float: right;
+    margin-left: 10px;
+    background-color: hsl(300, 24%, 96%);
+    justify-content: space-around; 
+    align-items: center;
+    
+}
+.pink-box:not(:last-child){margin-bottom: 25px;}
+
+
+.up{
+    margin-top: 102px;
+    margin-right: 100px;
+}
+
+.middle{
+    margin-right: 50px;
+}
+
+.star{
+    padding: 2px;
+}
+
+.rated{
+    font-weight: 500;
+    font-size: 12px;
+    color:hsl(300, 43%, 22%);
+}
+
+
+
+
+
+.second-set{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.purple-box{
+    width: 350px;
+    height: 240px;
+    background-color:  hsl(300, 43%, 22%);
+    border-radius: 8px;
+    position: left;
+
+    
+    
+    
+    
+}
+
+.colton{
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 10px;
+    
+
+}
+
+.irene{
+    margin-top: 100px;
+    margin-right: 10px;
+}
+
+.anne{
+    margin-top: 120px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.circle{
+    clip-path: circle(50% at 50% 50%);
+    width: 50px;
+    margin: 40px 20px 10px 40px;
+}
+
+.name{
+    float: right;
+    margin-right: 120px;
+    margin-top: 37px;
+    
+    
+    
+}
+
+h2{
+    color: white;
+    font-size: 12px;
+    margin-bottom: 7px;
+}
+
+.buyer{
+    color: hsl(333, 80%, 67%);
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.review{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    margin-right: 40px;
+    margin-left: 40px;
+    
+}
+
